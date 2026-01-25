@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d777d270cee3a5c419cb21a828556f1a, type: 3}
+  m_Name: CodeMonkeyFreeSO
+  m_EditorClassIdentifier: 
+  currentVersion: 1.01
+  subtype: kitchenchaos
+  lastShownTimestamp: 1769321825
+  lastUpdateResponse:
+    version: 1.01
+    versionUrl: https://unitycodemonkey.com
+  checkedLastUpdateTimestamp: 1769321825
+  lastQOTDResponse:
+    questionId: 265
+    questionText: What does Normalizing a Vector do?
+    answerA: Modifies its x,y,z to get a magnitude of 1
+    answerB: Invert its x,y,z
+    answerC: Flatten the z
+    answerD: 
+    answerE: 
+  lastQotdTimestamp: 1769321825
+  lastDynamicHeaderResponse:
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/gameDevReport_2.png
+    topText: Stay up to date with the latest in Game Dev straight to your inbox!
+    topLink: gamedevreport
+    bottomText: My 10+ Years of C# Knowledge in 1 Course!
+    bottomLink: csharpcourse
+  lastDynamicHeaderTimestamp: 1769321825
+  websiteLatestMessage:
+    text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
+      Click here!</a>
+  websiteLatestMessageTimestamp: 1769321825
+  websiteLatestVideos:
+    videos:
+    - youTubeId: ZxPFiJgEQT0
+      title: TOP 10 NEW Systems and Tools JANUARY 2026! | Unity Asset Store
+    - youTubeId: 4ZcETvXRfl0
+      title: Roadmaps for Game Dev SUCCESS in 2026! (Beginner, Intermediate and Marketing)
+    - youTubeId: 3hrhAS-q3Z0
+      title: TOP 10 FREE NEW Assets JANUARY 2026!
+    - youTubeId: cWKA_FTprj0
+      title: TOP 10 NEW Games, Made with Unity! (DECEMBER 2025)
+  websiteLatestVideosTimestamp: 1769321825
