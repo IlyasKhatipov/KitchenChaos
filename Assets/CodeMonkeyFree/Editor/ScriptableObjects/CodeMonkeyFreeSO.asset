@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1769321825
+  lastShownTimestamp: 1769429811
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1769321825
+  checkedLastUpdateTimestamp: 1769429812
   lastQOTDResponse:
     questionId: 265
     questionText: What does Normalizing a Vector do?
@@ -27,18 +27,18 @@ MonoBehaviour:
     answerC: Flatten the z
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1769321825
+  lastQotdTimestamp: 1769429812
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/gameDevReport_2.png
     topText: Stay up to date with the latest in Game Dev straight to your inbox!
     topLink: gamedevreport
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1769321825
+  lastDynamicHeaderTimestamp: 1769429812
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1769321825
+  websiteLatestMessageTimestamp: 1769429812
   websiteLatestVideos:
     videos:
     - youTubeId: ZxPFiJgEQT0
@@ -49,4 +49,4 @@ MonoBehaviour:
       title: TOP 10 FREE NEW Assets JANUARY 2026!
     - youTubeId: cWKA_FTprj0
       title: TOP 10 NEW Games, Made with Unity! (DECEMBER 2025)
-  websiteLatestVideosTimestamp: 1769321825
+  websiteLatestVideosTimestamp: 1769429812
