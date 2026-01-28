@@ -14,39 +14,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1769429811
+  lastShownTimestamp: 1769600503
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1769429812
+  checkedLastUpdateTimestamp: 1769600503
   lastQOTDResponse:
-    questionId: 265
-    questionText: What does Normalizing a Vector do?
-    answerA: Modifies its x,y,z to get a magnitude of 1
-    answerB: Invert its x,y,z
-    answerC: Flatten the z
+    questionId: 266
+    questionText: Where is the modulo % operator particularly useful?
+    answerA: Looping back on a list
+    answerB: Counting elements in a list
+    answerC: Creating a new list with size
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1769429812
+  lastQotdTimestamp: 1769600503
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/gameDevReport_2.png
     topText: Stay up to date with the latest in Game Dev straight to your inbox!
     topLink: gamedevreport
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1769429812
+  lastDynamicHeaderTimestamp: 1769600503
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1769429812
+  websiteLatestMessageTimestamp: 1769600503
   websiteLatestVideos:
     videos:
+    - youTubeId: dYImrPahrME
+      title: STUCK for HOURS trying to write Code? Watch this!
     - youTubeId: ZxPFiJgEQT0
       title: TOP 10 NEW Systems and Tools JANUARY 2026! | Unity Asset Store
     - youTubeId: 4ZcETvXRfl0
       title: Roadmaps for Game Dev SUCCESS in 2026! (Beginner, Intermediate and Marketing)
     - youTubeId: 3hrhAS-q3Z0
       title: TOP 10 FREE NEW Assets JANUARY 2026!
-    - youTubeId: cWKA_FTprj0
-      title: TOP 10 NEW Games, Made with Unity! (DECEMBER 2025)
-  websiteLatestVideosTimestamp: 1769429812
+  websiteLatestVideosTimestamp: 1769600503
