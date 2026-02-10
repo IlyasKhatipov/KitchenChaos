@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1770646056
+  lastShownTimestamp: 1770735783
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1770646056
+  checkedLastUpdateTimestamp: 1770735783
   lastQOTDResponse:
     questionId: 270
     questionText: 'Does this code compile?
@@ -34,26 +34,26 @@ MonoBehaviour:
     answerC: Yes if target is not null
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1770646056
+  lastQotdTimestamp: 1770735783
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/gameDevReport_2.png
     topText: Stay up to date with the latest in Game Dev straight to your inbox!
     topLink: gamedevreport
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1770646056
+  lastDynamicHeaderTimestamp: 1770735783
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1770646056
+  websiteLatestMessageTimestamp: 1770735783
   websiteLatestVideos:
     videos:
+    - youTubeId: Vb5BZu7TOIk
+      title: 8 QUICK Game Dev Tips for SUCCESS!
     - youTubeId: 4cG_gdjQ4no
       title: TOP 10 NEW Games, Made with Unity! (JANUARY 2026)
     - youTubeId: Vc_38R17zNs
       title: 'Productivity Tip: DON''T Finish Your Tasks!'
     - youTubeId: B2G1ZTKzJSM
       title: BEST NEW Visual Assets to INSPIRE YOU! (JANUARY 2026)
-    - youTubeId: dYImrPahrME
-      title: STUCK for HOURS trying to write Code? Watch this!
-  websiteLatestVideosTimestamp: 1770646056
+  websiteLatestVideosTimestamp: 1770735783
