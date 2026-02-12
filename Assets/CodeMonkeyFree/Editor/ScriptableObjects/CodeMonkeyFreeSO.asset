@@ -14,38 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1770735783
+  lastShownTimestamp: 1770890319
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1770735783
+  checkedLastUpdateTimestamp: 1770890319
   lastQOTDResponse:
-    questionId: 270
-    questionText: 'Does this code compile?
-
-      <p>private void SetTarget(Transform
-      target) {</p>
-
-      <p>&nbsp; &nbsp; GameObject targetGameObject = target;</p>
-
-      <p>}</p>'
-    answerA: No
-    answerB: Yes
-    answerC: Yes if target is not null
+    questionId: 271
+    questionText: Can Color ever be null?
+    answerA: Yes, always
+    answerB: No
+    answerC: Yes, as Nullable
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1770735783
+  lastQotdTimestamp: 1770890319
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/gameDevReport_2.png
     topText: Stay up to date with the latest in Game Dev straight to your inbox!
     topLink: gamedevreport
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1770735783
+  lastDynamicHeaderTimestamp: 1770890319
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1770735783
+  websiteLatestMessageTimestamp: 1770890319
   websiteLatestVideos:
     videos:
     - youTubeId: Vb5BZu7TOIk
@@ -56,4 +49,4 @@ MonoBehaviour:
       title: 'Productivity Tip: DON''T Finish Your Tasks!'
     - youTubeId: B2G1ZTKzJSM
       title: BEST NEW Visual Assets to INSPIRE YOU! (JANUARY 2026)
-  websiteLatestVideosTimestamp: 1770735783
+  websiteLatestVideosTimestamp: 1770890319
