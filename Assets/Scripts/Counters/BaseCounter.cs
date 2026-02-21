@@ -23,4 +23,9 @@ public class BaseCounter : MonoBehaviour, IKitchenObjectParent
     public KitchenObject GetKitchenObject() { return kitchenObject; }
     public void ClearKitchenObject() { kitchenObject = null; }
     public bool HasKitchenObject() { return kitchenObject != null; }
+
+    public static void ResetStaticData()
+    {
+        OnAnyObjectPlacedHere = null;
+    }
 }

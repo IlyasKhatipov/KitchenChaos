@@ -18,5 +18,7 @@ public class MainMenuUI : MonoBehaviour
         quitBTN.onClick.AddListener(() => {
             Application.Quit();
         });
+
+        Time.timeScale = 1f;
     }
 }
