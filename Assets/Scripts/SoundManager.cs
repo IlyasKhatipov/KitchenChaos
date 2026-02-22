@@ -78,6 +78,16 @@ public class SoundManager : MonoBehaviour
         PlaySound(audioClipsRefsSO.footStep[UnityEngine.Random.Range(0, audioClipsRefsSO.footStep.Length)], position, volume);
     }
 
+    public void PlayCountdownSound()
+    {
+        PlaySound(audioClipsRefsSO.warning, Vector3.zero);
+    }
+
+    public void PlayWarningSound(Vector3 position)
+    {
+        PlaySound(audioClipsRefsSO.warning, position);
+    }
+
     public void ChangeVolume() 
     {
         volume += .1f;
