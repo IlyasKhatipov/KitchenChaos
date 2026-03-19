@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Unity.Netcode;
 using System;
 
-public class Player : NetworkBehaviour, IKitchenObjectParent
+public class Player : MonoBehaviour, IKitchenObjectParent
 {
-    //public static Player Instance { get; private set; }
+    public static Player Instance { get; private set; }
     public event EventHandler OnPickedSomething;
     public event EventHandler<OnSelectedCounterChangedEventArgs> OnSelectedCounterChanged;
     public class OnSelectedCounterChangedEventArgs : EventArgs 
@@ -16,6 +15,7 @@ public class Player : NetworkBehaviour, IKitchenObjectParent
 
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float rotationSpeed = 7f;
+    [SerializeField] private GameInput gameInput;
     [SerializeField] private LayerMask layerMask;
     [SerializeField] private GameObject kitchenObjectHoldPoint;
 
@@ -26,13 +26,17 @@ public class Player : NetworkBehaviour, IKitchenObjectParent
 
     private void Awake()
     {
-        //Instance = this;
+        if (Instance != null) 
+        {
+            Debug.LogError("There is more than one player instance");
+        }
+        Instance = this;
     }
 
     private void Start()
     {
-        GameInput.Instance.OnInteractAction += GameInput_OnInteractAction;
-        GameInput.Instance.OnInteractAlternateAction += GameInput_OnInteractAlternateAction;
+        gameInput.OnInteractAction += GameInput_OnInteractAction;
+        gameInput.OnInteractAlternateAction += GameInput_OnInteractAlternateAction;
     }
 
     private void GameInput_OnInteractAlternateAction(object sender, System.EventArgs e)
@@ -66,7 +70,7 @@ public class Player : NetworkBehaviour, IKitchenObjectParent
 
     private void HandleInteractions() 
     {
-        Vector2 inputVector = GameInput.Instance.GetMovementVectorNormalized();
+        Vector2 inputVector = gameInput.GetMovementVectorNormalized();
         Vector3 moveDir = new Vector3(inputVector.x, 0, inputVector.y);
         if (moveDir != Vector3.zero) 
         {
@@ -95,7 +99,7 @@ public class Player : NetworkBehaviour, IKitchenObjectParent
 
     private void HandleMovement() 
     {
-        Vector2 inputVector = GameInput.Instance.GetMovementVectorNormalized();
+        Vector2 inputVector = gameInput.GetMovementVectorNormalized();
         Vector3 moveDir = new Vector3(inputVector.x, 0, inputVector.y);
         float moveDistance = moveSpeed * Time.deltaTime;
         float playerRadius = 0.7f;
