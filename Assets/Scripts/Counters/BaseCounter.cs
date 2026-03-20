@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using Unity.Netcode;
 
 public class BaseCounter : MonoBehaviour, IKitchenObjectParent
 {
@@ -27,5 +28,10 @@ public class BaseCounter : MonoBehaviour, IKitchenObjectParent
     public static void ResetStaticData()
     {
         OnAnyObjectPlacedHere = null;
+    }
+
+    public NetworkObject GetNetworkObject()
+    {
+        return null;
     }
 }
