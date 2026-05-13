@@ -24,5 +24,6 @@ public class LobbyListSingleUI : MonoBehaviour
     public void SetLobby(Lobby lobby)
     {
         this.lobby = lobby;
+        lobbyNameText.text = lobby.Name;
     }
 }

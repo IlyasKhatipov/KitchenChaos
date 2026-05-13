@@ -73,7 +73,7 @@ public class LobbyUI : MonoBehaviour
         {
             Transform lobbyTransform = Instantiate(lobbyTemplate, lobbyContainer);
             lobbyTransform.gameObject.SetActive(true);
-            lobbyTransform.GetComponentInChildren<LobbyListSingleUI>().SetLobby(lobby);
+            lobbyTransform.GetComponent<LobbyListSingleUI>().SetLobby(lobby);
         }
     }
 }
