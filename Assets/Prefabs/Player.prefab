@@ -89,7 +89,7 @@ MonoBehaviour:
     m_Bits: 64
   collisionsLayerMask:
     serializedVersion: 2
-    m_Bits: 192
+    m_Bits: 448
   kitchenObjectHoldPoint: {fileID: 2367870383706015383}
   playerVisual: {fileID: 3689226379183324520}
 --- !u!114 &5470437667715010854

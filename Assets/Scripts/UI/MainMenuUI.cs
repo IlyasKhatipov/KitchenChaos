@@ -6,12 +6,13 @@ using UnityEngine.UI;
 
 public class MainMenuUI : MonoBehaviour
 {
-    [SerializeField] private Button playBTN;
+    [SerializeField] private Button playMultiPlayerPlayBtn;
     [SerializeField] private Button quitBTN;
 
     private void Awake()
     {
-        playBTN.onClick.AddListener(() => {
+        playMultiPlayerPlayBtn.onClick.AddListener(() =>
+        {
             Loader.Load(Loader.Scene.LobbyScene);
         });
 
